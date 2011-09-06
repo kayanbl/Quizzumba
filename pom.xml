@@ -2,11 +2,11 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>apps</groupId>
-	<artifactId>yesim</artifactId>
+	<artifactId>quizzumba</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>Yes I'm - Talk about me</name>
-	<url>http://www.yesim.com</url>
+	<name>Quizzumba</name>
+	<url>http://www.quizzumba.com</url>
 
 	<repositories>
 		<repository>
@@ -201,6 +201,6 @@
       </plugin>
 
 		</plugins>
-		<finalName>yesim</finalName>
+		<finalName>quizzumba</finalName>
 	</build>
 </project>
