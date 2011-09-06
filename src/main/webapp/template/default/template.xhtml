@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+   xmlns:h="http://java.sun.com/jsf/html"
+   xmlns:f="http://java.sun.com/jsf/core"
+   xmlns:ui="http://java.sun.com/jsf/facelets"
+   xmlns:p="http://primefaces.prime.com.tr/ui">
+
+	<h:head></h:head>
+    
+	<h:body>
+		<f:view> 	
+	       	<table width="90%" align="center" border="1">
+	       		<tr>
+	       			<td>
+	       			
+	       				<div id="website_title">Yes, I'm.</div>
+	       				<div id="website_subtitle">Talking about you!</div>
+	       			
+	       			</td>
+	       		</tr>
+	       		
+	       		<tr>
+	       		
+	       			<td>
+	       			
+	       				<p:menubar autoSubmenuDisplay="true">  
+					        <p:submenu label="File" icon="ui-icon ui-icon-document">  
+					            <p:submenu label="New" icon="ui-icon ui-icon-contact">  
+					                <p:menuitem value="Project" url="#" helpText="CTRL+N" />  
+					                <p:menuitem value="Other" url="#" helpText="CTRL+O"/>  
+					            </p:submenu>  
+					            <p:menuitem value="Open" url="#" />  
+					            <p:menuitem value="Quit" url="#" />  
+					        </p:submenu>  
+  
+					        <p:submenu label="Edit" icon="ui-icon ui-icon-pencil">  
+					            <p:menuitem value="Undo" url="#" icon="ui-icon ui-icon-arrowreturnthick-1-w" helpText="CTRL+Z"></p:menuitem>  
+					            <p:menuitem value="Redo" url="#" icon="ui-icon ui-icon-arrowreturnthick-1-e" helpText="CTRL+Y"></p:menuitem>  
+					        </p:submenu>  
+  			
+       						<p:menuitem value="Quit" url="http://www.primefaces.org" icon="ui-icon ui-icon-close" />  
+    					</p:menubar>  
+		       			
+	       			</td>
+	       		
+	       		</tr>
+	       		
+				<tr>
+	       			<td>
+	       				<ui:insert name="body" />
+	       			</td>
+				</tr>
+	       		
+	       		<tr>
+	       			<td>
+	       				<div id="footer">
+	       					OpenSource Project - 2011
+	       				</div>	
+	       			</td>
+	       		</tr>
+	       	</table>
+		</f:view>
+	</h:body>
+	
+</html>
+
